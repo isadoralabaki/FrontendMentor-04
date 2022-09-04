@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --red: hsl(0, 78%, 62%);
+    --cyan: hsl(180, 62%, 55%);
+    --orange: hsl(34, 97%, 64%);
+    --blue: hsl(212, 86%, 64%);
+    --very-dark-blue: hsl(234, 12%, 34%);
+    --grayish-blue: hsl(229, 6%, 66%);
+    --very-light-grey: hsl(0, 0%, 98%);
+}
+
+body {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--very-light-grey);
+    margin: 0;
+    padding: 0;
+}
+
+.mainContainer {
+    background-color: var(--very-light-grey);
+    height: 100vh;
+}
+
+.headContainer {
+    width: 100%;
+    height: 286px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.headTitle {
+    font-weight: 200;
+    color: var --grayish-blue;
+    font-size: 25px;
+    letter-spacing: 0.01px;
+}
+
+.headSubtitle {
+    font-weight: 600;
+    color: var(--very-dark-blue);
+    font-size: 25px;
+    letter-spacing: 0.01px;
+    margin-top: 7px;
+}
+
+.headParagraph {
+    font-weight: 400;
+    color: var(--grayish-blue);
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.01px;
+    width: 520px;
+    height: 62px;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 0px 60px;
+    margin-top: 22px;
+}
+
+.boxSupervisor {
+    width: 350px;
+    height: 245px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 0px 4px 1px rgba(0,0,0,1);
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 6px 14px 5px rgba(0,0,0,0.26);
+}
+
+.boxTeamBuilder {
+    width: 350px;
+    height: 245px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 0px 4px 1px rgba(0,0,0,1);
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 6px 14px 5px rgba(0,0,0,0.26);
+    margin-bottom: 32px;
+}
+
+.boxKarma {
+    width: 350px;
+    height: 245px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 0px 4px 1px rgba(0,0,0,1);
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 6px 14px 5px rgba(0,0,0,0.26);
+}
+
+.boxCalculator {
+    width: 350px;
+    height: 245px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 0px 4px 1px rgba(0,0,0,1);
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 6px 14px 5px rgba(0,0,0,0.26);
+}
+
+.colorSupervisor {
+    background-color: var(--cyan);
+    width: 100%;
+    height: 2%;
+}
+
+.colorTeamBuilder {
+    background-color: var(--red);
+    width: 100%;
+    height: 2%;
+}
+
+.colorCalculator {
+    background-color: var(--blue);
+    width: 100%;
+    height: 2%;
+}
+
+.colorKarma {
+    background-color: var(--orange);
+    width: 100%;
+    height: 2%;
+}
+
+.boxText {
+    display: flex;
+    flex-direction: column;
+}
+
+.boxTitle {
+    color: var(--very-dark-blue);
+    font-weight: 600;
+    font-size: 16px;
+    margin: 28px 209px 12px 32px;
+}
+
+.boxParagraph {
+    color: var(--grayish-blue);
+    font-weight: 400;
+    font-size: 12px;
+    margin: 0px 50px 43px 32px;
+}
+
+.boxIcon {
+    width: 64px;
+    height: 64px;
+    align-self: flex-end;
+    margin: 0px 30px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+}
+
+.boxOne {
+    align-self: center;
+}
+
+.boxTwo {
+    margin: 0px 32px;
+}
+
+.boxThree {
+    align-self: center;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 32px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
